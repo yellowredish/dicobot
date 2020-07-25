@@ -58,13 +58,25 @@ client.on('message', (message) => {
 else if(message.content === '안녕')
 message.reply('안녕하세요 :D')
 });
-if(message.content == 'embed') {
-  let img = 'https://cdn.discordapp.com/attachments/519451701502148622/736451267429269544/6fa2cd85c16e2e94.PNGsize=256';
-  let embed = new Discord.RichEmbed()
-    .setTitle('타이틀')
-    .setURL('http://www.naver.com')
-    .setAuthor('노란색치킨무', img, 'http://www.naver.com')
-  
-}
+const Discord = require('노란색치킨무 봇');
 
+// inside a command, event listener, etc.
+const exampleEmbed = new Discord.MessageEmbed()
+	.setColor('#0099ff')
+	.setTitle('노란색 치킨무')
+	.setURL('https://discord.js.org/')
+	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+	.setDescription('매우깐지나는 봇')
+	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
+	.addFields(
+		{ name: 'Regular field title', value: 'Some value here' },
+		{ name: '\u200B', value: '\u200B' },
+		{ name: 'Inline field title', value: 'Some value here', inline: true },
+	)
+	.addField('Inline field title', 'Some value here', true)
+	.setImage('https://i.imgur.com/wSTFkRM.png')
+	.setTimestamp()
+	.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+
+channel.send(exampleEmbed);
 client.login(token);

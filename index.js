@@ -64,17 +64,7 @@ if(message.content == 'embed') {
     .setTitle('타이틀')
     .setURL('http://www.naver.com')
     .setAuthor('노란색치킨무', img, 'http://www.naver.com')
-    .setThumbnail(img)
-    .addBlankField()
-    .addField('Inline field title', 'Some value here')
-    .addField('Inline field title', 'Some value here', true)
-    .addField('Inline field title', 'Some value here', true)
-    .addField('Inline field title', 'Some value here', true)
-    .addField('Inline field title', 'Some value here1\nSome value here2\nSome value here3\n')
-    .addBlankField()
-    .setTimestamp()
-    .setFooter('노란색치킨무', img)
-
+  
 }
 
 client.login(token);

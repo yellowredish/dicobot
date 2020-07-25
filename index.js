@@ -51,7 +51,9 @@ client.on('message', (message) => {
   else if(message.content === 'tlqkf') {
     message.reply('착한말을 사용해주세요..');
   }
-
+  else if(message.content === 'Tlqkf') {
+    message.reply('착한말을 사용해주세요..');
+  }
 
 });
 

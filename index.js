@@ -48,11 +48,11 @@ client.on('message', (message) => {
   if(message.content === '시발') {
     message.reply('욕하지마라 했다???');
   }
-});
-client.on('message', (message) => {
-  if(message.content === 'tlqkf') {
+  else if(message.content === 'tlqkf') {
     message.reply('착한말을 사용해주세요..');
   }
+
+
 });
 
 client.login(token);

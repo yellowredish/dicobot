@@ -51,10 +51,11 @@ client.on('message', (message) => {
   else if(message.content === 'tlqkf') {
     message.reply('착한말을 사용해주세요..');
   }
-  else if(message.content === 'Tlqkf') {
+  else if(message.content === 'lqkf') {
     message.reply('착한말을 사용해주세요..');
   }
-
+else if(message.content === '안녕')
+message.reply('안녕하세요 :D')
 });
 
 client.login(token);

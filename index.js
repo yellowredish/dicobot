@@ -76,5 +76,28 @@ else if(message.content === '심준석') {
           else if(message.content === '삔나') {
           message.reply('삔나?')
           } 
+          else if(message.content === '17준석') {
+            message.reply('어둠에서 살아가는 정의의 말살자 흐르는 눈물은 마치 보석같은 대지와 하늘을 떨리게 하는 최고존엄자이자 조물주 심준석')
+            }
+            else if(message.content === '민서') {
+              message.reply('병신새퀴')
+              } 
+              else if(message.content === '천예강') {
+                message.reply('섹시준석')
+                } 
+                else if(message.content === '소윤수') {
+                  message.reply('메이플 프로선수')
+                  } 
+                  else if(message.content === '준석') {
+                    message.reply('심준석')
+                    } 
+                    else if(message.content === '박준석') {
+                      message.reply('심준석')
+                      } 
+});
+client.on('message', (message) => {
+  if(message.content === '불좀꺼줄래?') {
+    message.reply('내 램좀보게..');
+  }
 });
 client.login(token);

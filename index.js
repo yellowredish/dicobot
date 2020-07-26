@@ -62,7 +62,7 @@ else if(message.content === '미안하다 이거 보여주려고 어그로끌었
 message.reply('ㄹㅇㅋㅋ') 
 }
 else if(message.content === '심준석') {
-  message.reply('최고존엄자..?')
+  message.reply('어둠에서 살아가는 정의의 말살자 흐르는 눈물은 마치 보석같은 대지와 하늘을 떨리게 하는 최고존엄자이자 조물주 심준석')
   }
   else if(message.content === '히오스하자') {
     message.reply('그망겜 왜함;;;')

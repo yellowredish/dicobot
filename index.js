@@ -99,5 +99,8 @@ client.on('message', (message) => {
   if(message.content === '불좀꺼줄래?') {
     message.reply('내 램좀보게..');
   }
+  else if(message.content === '인천사는뚱이') {
+    message.reply('살아있다');
+  }
 });
 client.login(token);

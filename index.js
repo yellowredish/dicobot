@@ -9,6 +9,21 @@ client.on('message', (message) => {
   if(message.content === '형주') {
     message.reply('형주가 기분나쁠거라 생각 안해봤어?');
   }
+  else if(message.content === '응ㅅㄱ') {
+    message.reply('응삔나');
+  }
+  else if(message.content === 'ㅃㄴ') {
+    message.reply('응삔나');
+  }
+  else if(message.content === '미안') {
+    message.reply('미안할필요없어');
+  }
+  else if(message.content === '미안.') {
+    message.reply('미안할필요없다고');
+  }
+  else if(message.content === '미안..') {
+    message.reply('네잘못이 아니야');
+  }
 });
 client.on('message', (message) => {
   if(message.content === 'ㅅㅂ') {

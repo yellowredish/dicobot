@@ -102,5 +102,37 @@ client.on('message', (message) => {
   else if(message.content === '인천사는뚱이') {
     message.reply('살아있다');
   }
+  else if(message.content === '히히') {
+    message.reply('헤헤헤')
+    } 
+    else if(message.content === '너') {
+      message.reply('뭐')
+      }
+      else if(message.content === 'ㅇㅇㄴㅇ') {
+        message.reply('미안해...')
+        }     
+        else if(message.content === 'ㅎㅎ') {
+          message.reply('웃어?')
+          } 
+          else if(message.content === '개꿀') {
+            message.reply('개꿀 아닌데,,')
+            } 
+            else if(message.content === 'ㅅㄱ') {
+            message.reply('응 ㅅㄱ')
+             }
+             else if(message.content === '?') {
+              message.reply('??')
+              } 
+              else if(message.content === '??') {
+                message.reply('?????')
+                } 
+                else if(message.content === 'nope') {
+                  message.reply('아니야')
+                  } 
+
+
+
 });
+
+
 client.login(token);

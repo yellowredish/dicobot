@@ -24,6 +24,24 @@ client.on('message', (message) => {
   else if(message.content === '미안..') {
     message.reply('네잘못이 아니야');
   }
+   else if(message.content === 'ㄹㅇㅋㅋ') {
+    message.reply('ㄹㅇ 반박불가다 ㅋ');
+  }
+  else if(message.content === '아니?') {
+    message.reply('뭐가아니라는거야..');
+  }
+  else if(message.content === '조이스') {
+    message.reply('우욱');
+  }
+  else if(message.content === '아잉') {
+    message.reply('아잉아잉');
+  }
+  else if(message.content === '너인성문제있어?') {
+    message.reply('없슴다!!!!');
+  }
+  else if(message.content === '어이..') {
+    message.reply('왜그러나 자네..');
+  }
 });
 client.on('message', (message) => {
   if(message.content === 'ㅅㅂ') {

@@ -89,10 +89,10 @@ client.on('message', (message) => {
   else if(message.content === 'cex') {
     message.reply("이새기 박제")
   }
-  else if(message.content === ':regional_indicator_s: :regional_indicator_e: :regional_indicator_x:') {
+  else if(message.content === ':regional_indicator_s::regional_indicator_e::regional_indicator_x:') {
     message.reply("<<<<< 박제 ㅅㄱ")
   }
-  else if(message.content === ':regional_indicator_s: :regional_indicator_e:') {
+  else if(message.content === ':regional_indicator_s::regional_indicator_e:') {
     message.reply("어..?")
   }
 });

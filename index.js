@@ -47,10 +47,53 @@ client.on('message', (message) => {
   if(message.content === 'ㅅㅂ') {
     message.reply('욕하지마');
   }
+  else if(message.content === '잘가') {
+    message.reply('안녕히가세요:D');
+  }
+  else if(message.content === 'ㅂㅂ') {
+    message.reply('안녕히가세요:D');
+  }
+  else if(message.content === 'ㅂㅇ') {
+    message.reply('안녕히가세요:D');
+  }
+  else if(message.content === '바이') {
+    message.reply('안녕히가세요:D');
+  }
+  else if(message.content = '큰1돈을 벌거야') {
+    message.reply("큰1돈을 벌어서 더큰1돈을 벌꺼야")
+  }
+  else if(message.content = '김도현') {
+    message.reply("모든게임 골딱이")
+  }
+  else if(message.content = 'ㄴㅇㄱ') {
+    message.reply("상상도 못한 정체")
+  }
+  else if(message.content = '아연') {
+    message.reply("그의 이름을 불러선 안돼,,")
+  }
+  else if(message.content = '아디다스') {
+    message.reply("아디오스")
+  }
+  
 });
 client.on('message', (message) => {
   if(message.content === 'ㅎㅈ') {
     message.reply('왜 ㅎㅈ라고 해??');
+  }
+  else if(message.content = '섹스') {
+    message.reply("너 박제")
+  }
+  else if(message.content = 'sex') {
+    message.reply("너이자식 박제")
+  }
+  else if(message.content = 'cex') {
+    message.reply("이새기 박제")
+  }
+  else if(message.content = ':regional_indicator_s: :regional_indicator_e: :regional_indicator_x:') {
+    message.reply("<<<<< 박제 ㅅㄱ")
+  }
+  else if(message.content = ':regional_indicator_s: :regional_indicator_e:') {
+    message.reply("어..?")
   }
 });
 client.on('message', (message) => {
@@ -65,17 +108,17 @@ client.on('message', (message) => {
 });
 client.on('message', (message) => {
   if(message.content === '롤하자') {
-    message.reply('지금 시험기간이야');
+    message.reply('시험끝났다!!!!!');
   }
 });
 client.on('message', (message) => {
   if(message.content === '게임하자') {
-    message.reply('지금 시험기간이야');
+    message.reply('시험끝났다!!!!!');
   }
 });
 client.on('message', (message) => {
   if(message.content === '겜하자') {
-    message.reply(':unamused:');
+    message.reply('시험끝났다!!!!!');
   }
 });
 client.on('message', (message) => {

@@ -74,7 +74,21 @@ client.on('message', (message) => {
   else if(message.content === '아디다스') {
     message.reply("아디오스")
   }
-  
+  else if(message.content === '테봇아') {
+    message.reply("왜")
+  }
+  else if(message.content === '테봇') {
+    message.reply("네?")
+  }
+  else if(message.content === '테스트봇') {
+    message.reply("부르셨나요")
+  }
+  else if(message.content === '공부해') {
+    message.reply("시험끝난지가 언젠데;;")
+  }
+  else if(message.content === '아닌데') {
+    message.reply("ㅇㅉ")
+  }
 });
 client.on('message', (message) => {
   if(message.content === 'ㅎㅈ') {

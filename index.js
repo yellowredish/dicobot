@@ -114,6 +114,21 @@ client.on('message', (message) => {
   if(message.content === '박형주') {
     message.reply('형주한테 왜그래...;;');
   }
+  else if(message.content === '테봇아 노래틀어줘') {
+    message.reply('리듬한테 시켜 왜 나한테 시킴?;;');
+  }
+  else if(message.content === '테봇아 노래틀어') {
+    message.reply('리듬은 장식이니;;');
+  }
+  else if(message.content === '머리부터발끝까지') {
+    message.reply('띨빵새끼야');
+  }
+  else if(message.content === 'ㅋㅋㄹ') {
+    message.reply('ㅋㅋㄹ??');
+  }
+  else if(message.content === '메이플') {
+    message.reply('테라버닝으로 10렙부터 200렙까지 레벨업을하면 레벨이 3업이 되는 갓 이벤트를 하는 갓겜 말하는 거니??');
+  }
 });
 client.on('message', (message) => {
     if(message.content === '형준데?') {

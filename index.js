@@ -126,15 +126,13 @@ client.on('message', (message) => {
   else if(message.content === 'ㅋㅋㄹ') {
     message.reply('ㅋㅋㄹ??');
   }
-  else if(message.content === '메이플') {
-    message.reply('테라버닝으로 10렙부터 200렙까지 레벨업을하면 레벨이 3업이 되는 갓 이벤트를 하는 갓겜 말하는 거니??');
-  }
-  else if(message.content === '탈모') {
+ else if(message.content === '탈모') {
     message.reply('그건너');
   }
   else if(message.content === '민규탈모') {
     message.reply('그건 맞는말');
   }
+  
 });
 client.on('message', (message) => {
     if(message.content === '형준데?') {
@@ -149,6 +147,9 @@ client.on('message', (message) => {
 client.on('message', (message) => {
   if(message.content === '게임하자') {
     message.reply('시험끝났다!!!!!');
+  }
+  else if(message.content === '앙') {
+    message.reply('기모쯰');
   }
 });
 client.on('message', (message) => {

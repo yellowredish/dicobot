@@ -145,8 +145,8 @@ client.on('message', (message) => {
   }
 });
 client.on('message', (message) => {
-  if(message.content === '게임하자') {
-    message.reply('시험끝났다!!!!!');
+  if(message.content === 'ㄴㄱㅁ') {
+    message.reply('패드립은 선넘었지;;;;');
   }
   else if(message.content === '앙') {
     message.reply('기모쯰');

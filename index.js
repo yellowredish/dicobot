@@ -156,6 +156,18 @@ client.on('message', (message) => {
   if(message.content === '겜하자') {
     message.reply('시험끝났다!!!!!');
   }
+  else if(message.content === '이건희') {
+    message.reply('망할롬');
+  }
+  else if(message.content === '망삐') {
+    message.reply('망할이건희');
+  }
+  else if(message.content === '이태연') {
+    message.reply('GAY');
+  }
+  else if(message.content === '장민규') {
+    message.reply('띨빵새끼');
+  }
 });
 client.on('message', (message) => {
   if(message.content === '시발') {

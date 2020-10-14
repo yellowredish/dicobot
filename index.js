@@ -151,6 +151,15 @@ client.on('message', (message) => {
   else if(message.content === '앙') {
     message.reply('기모쯰');
   }
+  else if(message.content === '호재형') {
+    message.reply('롤 프로팀 132군 선수');
+  }
+  else if(message.content === 'sexy') {
+  message.reply('ㄴㄷ툐');
+}
+else if(message.content === 'ㄴㄷ툐') {
+  message.reply('sexy');
+}
 });
 client.on('message', (message) => {
   if(message.content === '겜하자') {

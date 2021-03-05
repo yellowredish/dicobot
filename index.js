@@ -270,10 +270,14 @@ client.on ('message', (message) => {
   if(message.content === '왕민두' ){
     message.reply === ('왕민두.');
 }
-else if(message.content === '어쩔')
- message.reply === ('안궁금해');
- else if(message.content === 'ㅇㅉ')
- message.reply === ('어쩔');
+else if(message.content === '어쩔'){ 
+  message.reply === ('안궁금해');
+}
+
+ else if(message.content === 'ㅇㅉ'){
+   message.reply === ('어쩔');
+  }
+ 
 
 
 

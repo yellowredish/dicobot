@@ -237,20 +237,20 @@ client.on('message', (message) => {
   }
   else if(message.content === '히히') {
     message.reply('헤헤헤')
-    } 
-    else if(message.content === '너') {
+   } 
+ else if(message.content === '너') {
       message.reply('뭐')
       }
-      else if(message.content === 'ㅇㅇㄴㅇ') {
+  else if(message.content === 'ㅇㅇㄴㅇ') {
         message.reply('미안해...')
         }     
-        else if(message.content === 'ㅎㅎ') {
+   else if(message.content === 'ㅎㅎ') {
           message.reply('웃어?')
           } 
-          else if(message.content === '개꿀') {
+   else if(message.content === '개꿀') {
             message.reply('개꿀 아닌데,,')
             } 
-            else if(message.content === 'ㅅㄱ') {
+             else if(message.content === 'ㅅㄱ') {
             message.reply('응 ㅅㄱ')
              }
              else if(message.content === '?') {
@@ -266,6 +266,20 @@ client.on('message', (message) => {
 
 
 });
+client.on('message', (message) => {
+  if(message.content === '야') {
+    message.reply('말이짧다?');  
+  } 
+  else if(message.content === '왓더홀리몰리'){
+   message.reply('야미딱대네요') 
+  };
+ 
+  
+  
+  
+  
+
+
 
 
 client.login(token);

@@ -266,36 +266,22 @@ client.on('message', (message) => {
 
 
 });
-client.on ('message', (message) => {
-  if(message.content === '왕민두' ){
-    message.reply === ('왕민두.');
-}
-else if(message.content === '어쩔'){ 
-  message.reply === ('안궁금해');
-}
-
- else if(message.content === 'ㅇㅉ'){
-   message.reply === ('어쩔');
+client.on('message', (message) => {
+  if(message.content === '왕민두') {
+    message.reply('왕민두.');
   }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  else if(message.content === 'ㅇㅉ') {
+    message.reply('어쩌라고');
+  }
+  else if(message.content === '어쩔') {
+    message.reply('안물어봤는데 ㅎ');
+  }
+  else if(message.content === '야') {
+    message.reply('말이 짧다?');
+  }
+  else if(message.content === '야미딱대') {
+    message.reply('야미딱대네요');
+  }
 });
   
   
